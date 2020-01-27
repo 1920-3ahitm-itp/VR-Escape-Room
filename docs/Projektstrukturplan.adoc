@@ -1,0 +1,23 @@
+[plantuml, format=svg, opts="inline"]
+----
+skinparam Legend {
+    BackgroundColor transparent
+    BorderColor transparent
+    FontName "Noto Serif", "DejaVu Serif", serif
+    FontSize 18
+}
+legend
+VR-Escaperoom
+|_ Hardware
+  |_ Oculus Rift
+  |_ Rechner
+  |_ Bildschirm
+|_ Software
+  |_ Unity
+    |_ Assets
+  |_ Betriebssystem
+|_ Dienstleistung
+  |_Unterhaltung
+  |_ Geschicklichkeitsspiel
+end legend
+----

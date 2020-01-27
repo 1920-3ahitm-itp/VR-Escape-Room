@@ -1,0 +1,119 @@
+= Pflichtenheft VR Escaperoom
+// Metadata
+firstname lastname <mail@mail-server>
+1.0, 25.01.2020
+
+// Settings
+:source-highlighter: coderay
+:icons: font
+:sectnums:    // Nummerierung der Überschriften / section numbering
+// Refs:
+:imagesdir: images
+:sourcedir-code: src/main/java/at/htl/jdbcprimer
+:sourcedir-test: src/test/java/at/htl/jdbcprimer
+:toc:
+
+Version: {revnumber} +
+Version Date: {revdate} +
+Author: Sarah Feichtinger feichtinger.sarah5@gmail.com
+
+++++
+<link rel="stylesheet"  href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+++++
+
+== Beschreibung der Ausgangssituation
+
+Um die teuren realen Escape Rooms zu ersetzten, wird versucht ein virtueller Escaperoom zu erschaffen.
+Zu Verfügung stehen dafür die Entwicklungsumgebung Unity, welche bereits verschiedene vorgefertigte virtuelle 3D Modelle anbietet, Blender und eine VR-Brille.
+
+== Istzustand
+
+Mittlerweile hat sich das Team grobe Kenntnisse angeignet und es sind einige Testprogramme geschrieben worden, z.B. eine einfache Version von Beat Saber (ein Spiel bei dem man mit Lichtschwertern Würfel zerschlägt).
+Auch erste Einrichtungsgegenstände sind bereits designed worden.
+Außerdem ist die Außenumgebung in Arbeit.
+
+== Problemstellung
+
+Dem Team fehlt die Erfahrung mit Blender und Unity, so das einfache Aufgaben trotzdem nur langsam voran gehen.
+
+== Aufgabenstellung
+
+Aufgabe ist es einen Virtuellen Escaperoom zu erstellen, welcher mit einer Oculus VR Brille verwendet werden können sollte.
+Über eine Animation kommt der Spieler in ein Hexenhaus, in welchem er verschiedene Rätsel, 5 an der Zahl, lösen muss, um einen Verkleinerungstrank brauen zu können.
+Der Verkleinerungstrank macht es dem Spieler möglich in einen anderen Raum zu gelangen, in dem der Schlüssel liegt.
+Das Spiel gilt als gewonnen, sobald der Spieler mit dem Schlüssel die Türe geöffnet hat und somit aus dem Hexenhaus entkommt.
+
+=== Funktionale Anforderungen
+
+==== Anwendungsfalldiagramm (Use-Case-Diagram)
+
+[plantuml]
+----
+    left to right direction
+    actor Player
+    rectangle {
+     Player -- (Entkommen aus \ndem Raum)
+    }
+----
+
+==== Use-Case 1
+
+===== Charakterisierende Informationen Use-Case 1
+
+[cols=2]
+|===
+| Übergeordneter elementarer Geschäftsprozess:
+| Schulunterricht
+
+| Ziel des Use Cases:
+| Ziel ist es aus dem Raum zu entkommen.
+
+| Umgebende Systemgrenze:
+| <System, das betrachtet wird (Systemgrenze im Diagramm des vorigen Abschnittes)>
+
+| Vorbedingung:
+| Der Spieler muss alle Rätsel lösen und einen Trank brauen um an den Haustürschlüssel zu gelangen.
+
+| Nachbedingung bei erfolgreicher Ausführung:
+| <Was muss sichergestellt werden für eine erfolgreiche Ausführung des Use Case>
+
+| Beteiligte Nutzer:
+| Interessierte Schüler am Tag der Offenen Tür
+Klassenkollegen,
+Evtl. Masters of Escape OG
+
+| Auslösendes Ereignis:
+| Auftragserteilung durch Herr Professor Stütz
+|===
+
+=== Nicht-funktionale Anforderungen
+
+Typen von Produktcharakteristiken
+
+Typ USE: Benutzbarkeitsanforderung
+
+Das Programm soll selbsterklärend funktionieren und einfach zu bedienen sein.
+Sich davor eine Anleitung oder ähnliches durchzulesen sollte nicht notwendig sein.
+
+Typ PFLEGE: Wartbarkeits- und Portierbarkeitsanforderung
+
+Das Produkt soll später auch in englischer Sprache verfügbar sein.
+Außerdem sollten die verschiedenen, aus dem Internet verwendeten 3D-Objekte, wie z.B. Einrichtungsgegenstände später einfach durch selbst designte ersetzbar sein.
+
+Typ SICHER: Sicherheitsanforderung
+
+Das System muss gewährleisten, dass sich der Spieler beim Verwenden nicht verletzt.
+
+Typ LEGAL: Gesetzliche Anforderung
+
+Bei der Verwendung von Objekten aus dem Internet muss darauf geachtet werden, ob und welche Lizenzbedingungen eingehalten werden müssen.
+
+== Zielsetzung
+
+Ziel ist es, eine kostengünstige Alternative zu den teuren und aufwendig zu betreibenden, realen Escaperooms zu schaffen.
+
+== Mengengerüst
+
+TIP: Hier sind die Anzahl der erwarteten Stammdaten sowie der Geschäftsfälle und die daraus resultierenden Zeilen in den Tabellen anzugeben.
+Diese Angaben sind wichtig, um einerseits die benötigte Speicherform (z.B. XML-Datei oder Datenbank) bzw. die geeignete Datenbank auswählen zu können.
+Auch können von der Anzahl der Geschäftsfälle besondere Anforderungen an das zu entwickelnde System abgeleitet werden (z.B. eine sehr effizient zu bedienende UI, wenn sehr viele Daten zu bearbeiten sind).
