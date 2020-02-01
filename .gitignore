@@ -1,0 +1,30 @@
+/test_exerciseProgramms/beatSaber/Assets/Oculus/
+/test_exerciseProgramms/beatSaber/Assets/TextMesh Pro/
+/test_exerciseProgramms/beatSaber/Assets/Standard Assets/
+/test_exerciseProgramms/beatSaber/Library/
+/test_exerciseProgramms/beatSaber/obj/
+sysinfo.txt
+*.stackdump
+/Assets/AssetStoreTools*
+*.apk
+*.unitypackage
+ 
+# ===================================== #
+# Visual Studio / MonoDevelop generated #
+# ===================================== #
+[Ee]xported[Oo]bj/
+.vs/
+/*.userprefs
+/*.csproj
+/*.pidb
+*.pidb.meta
+/*.suo
+/*.sln*
+/*.user
+/*.unityproj
+/*.booproj
+.consulo/
+/*.tmp
+/*.svd
+ 
+
