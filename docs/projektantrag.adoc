@@ -1,4 +1,4 @@
-= Escape Room VR
+= VR Escape Room Projektantrag
 :icons: font
 :iconfont-cdn: //maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css
 
@@ -61,7 +61,7 @@ Soll bis Juli  gemacht werden
  Risiken sind, das die Projektmitglieder mit der VR-Programmierung überfordert sein könnten
 
 ==== Projektteam
+. Sarah Feichtinger (Projektleitung)
 . Dumfarth Felix
-. Sarah Feichtinger
 . Daniela Plöchl
 

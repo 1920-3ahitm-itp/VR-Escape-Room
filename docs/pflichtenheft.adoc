@@ -23,13 +23,14 @@ Author: Sarah Feichtinger feichtinger.sarah5@gmail.com
 
 == Beschreibung der Ausgangssituation
 
-Um die teuren realen Escape Rooms zu ersetzten, wird versucht ein virtueller Escaperoom zu erschaffen.
-Zu Verfügung stehen dafür die Entwicklungsumgebung Unity, welche bereits verschiedene vorgefertigte virtuelle 3D Modelle anbietet, Blender und eine VR-Brille.
+Um eine billige Alternative zu den teuren, realen Escape Rooms zu schaffen, wird versucht ein virtueller Escaperoom zu erstellen.
+Zu Verfügung stehen dafür die Entwicklungsumgebung Unity, welche bereits verschiedene vorgefertigte virtuelle 3D Modelle anbietet, Blender und eine Oculus VR-Brille.
 
 == Istzustand
 
-Mittlerweile hat sich das Team grobe Kenntnisse angeignet und es sind einige Testprogramme geschrieben worden, z.B. eine einfache Version von Beat Saber (ein Spiel bei dem man mit Lichtschwertern Würfel zerschlägt).
-Auch erste Einrichtungsgegenstände sind bereits designed worden.
+Mittlerweile hat sich das Team grobe Kenntnisse angeignet und es sind einige Testprogramme geschrieben worden, z.B. eine einfache Version von Beat Saber (ein Spiel bei dem man mit Lichtschwertern Würfel zerschlägt)
+und ein Programm, bei dem man Wüfel in verschiedenen Farben in ein einen Topf werfen kann, der Trank nimmt dann die Farbe des jeweiligen Würfels an. +
+Auch erste Einrichtungsgegenstände sind bereits erstellt worden. +
 Außerdem ist die Außenumgebung in Arbeit.
 
 == Problemstellung
@@ -38,9 +39,9 @@ Dem Team fehlt die Erfahrung mit Blender und Unity, so das einfache Aufgaben tro
 
 == Aufgabenstellung
 
-Aufgabe ist es einen Virtuellen Escaperoom zu erstellen, welcher mit einer Oculus VR Brille verwendet werden können sollte.
-Über eine Animation kommt der Spieler in ein Hexenhaus, in welchem er verschiedene Rätsel, 5 an der Zahl, lösen muss, um einen Verkleinerungstrank brauen zu können.
-Der Verkleinerungstrank macht es dem Spieler möglich in einen anderen Raum zu gelangen, in dem der Schlüssel liegt.
+Aufgabe ist es, einen virtuellen Escaperoom zu erstellen, welcher mit einer Oculus VR Brille verwendet werden kann.
+Über eine Animation kommt der Spieler in ein Hexenhaus, in welchem er verschiedene Rätsel (5 an der Zahl) lösen muss, um einen Verkleinerungstrank brauen zu können.
+Der Verkleinerungstrank macht es dem Spieler möglich, in einen anderen Raum zu gelangen, in dem der Schlüssel liegt.
 Das Spiel gilt als gewonnen, sobald der Spieler mit dem Schlüssel die Türe geöffnet hat und somit aus dem Hexenhaus entkommt.
 
 === Funktionale Anforderungen
@@ -69,13 +70,10 @@ Das Spiel gilt als gewonnen, sobald der Spieler mit dem Schlüssel die Türe ge�
 | Ziel ist es aus dem Raum zu entkommen.
 
 | Umgebende Systemgrenze:
-| <System, das betrachtet wird (Systemgrenze im Diagramm des vorigen Abschnittes)>
+| Ziel ist es nicht, eine bestimmte Punkteanzahl oder ähnliches zu erreichen, es geht nur darum den Raum innerhalb einer definierten Zeit zu verlassen
 
 | Vorbedingung:
 | Der Spieler muss alle Rätsel lösen und einen Trank brauen um an den Haustürschlüssel zu gelangen.
-
-| Nachbedingung bei erfolgreicher Ausführung:
-| <Was muss sichergestellt werden für eine erfolgreiche Ausführung des Use Case>
 
 | Beteiligte Nutzer:
 | Interessierte Schüler am Tag der Offenen Tür
@@ -93,7 +91,7 @@ Typen von Produktcharakteristiken
 Typ USE: Benutzbarkeitsanforderung
 
 Das Programm soll selbsterklärend funktionieren und einfach zu bedienen sein.
-Sich davor eine Anleitung oder ähnliches durchzulesen sollte nicht notwendig sein.
+Sich davor eine Anleitung oder Ähnliches durchzulesen sollte nicht notwendig sein.
 
 Typ PFLEGE: Wartbarkeits- und Portierbarkeitsanforderung
 
@@ -114,6 +112,15 @@ Ziel ist es, eine kostengünstige Alternative zu den teuren und aufwendig zu bet
 
 == Mengengerüst
 
-TIP: Hier sind die Anzahl der erwarteten Stammdaten sowie der Geschäftsfälle und die daraus resultierenden Zeilen in den Tabellen anzugeben.
-Diese Angaben sind wichtig, um einerseits die benötigte Speicherform (z.B. XML-Datei oder Datenbank) bzw. die geeignete Datenbank auswählen zu können.
-Auch können von der Anzahl der Geschäftsfälle besondere Anforderungen an das zu entwickelnde System abgeleitet werden (z.B. eine sehr effizient zu bedienende UI, wenn sehr viele Daten zu bearbeiten sind).
+Für das Spiel wird eine Oculus Vr Brille und ein Computer mit mindestens:
+
+*  NVIDIA GTX 960 oder AMD 290 Grafikkarte
+* 1 USB-3.0-Anschluss und 2 USB-2.0-Anschlüsse
+* 1 HDMI-1.3-Port
+* Intel i3-6100 oder AMD FX4350 Prozessor
+* 8 GByte RAM
+* Windows 7
+
+benötigt.
+
+Die optimalen PC Anforderungen finden Sie unter: https://praxistipps.chip.de/oculus-rift-systemanforderungen-fuer-pc_41200

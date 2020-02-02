@@ -1,0 +1,43 @@
+= VR Escape Room
+// Metadata
+firstname lastname <mail@mail-server>
+1.0, 02.02.2020
+
+// Settings
+:source-highlighter: coderay
+:icons: font
+:sectnums:    // Nummerierung der Überschriften / section numbering
+// Refs:
+:imagesdir: images
+:sourcedir-code: src/main/java/at/htl/jdbcprimer
+:sourcedir-test: src/test/java/at/htl/jdbcprimer
+:toc:
+
+Version: {revnumber} +
+Version Date: {revdate} +
+Author: Sarah Feichtinger feichtinger.sarah5@gmail.com
+
+++++
+<link rel="stylesheet"  href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+++++
+
+
+A VR Escape Room made with Unity and Blender
+
+== Contains
+* Project documents
+* Test and exercise programs
+* The Escape Room program and its folders
+
+== Usage
+
+Open the folder *escapeRoom* in Unity to play the main game.
+Unity will show you which libraries you have to download. After that,
+connect your Oculus Vr (its important to use Oculus, otherwise it will not work)
+and press the start button.
+If you want to try our test programs, you will find them in the *test_exerciseProgramms* folder
+
+
+== Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+

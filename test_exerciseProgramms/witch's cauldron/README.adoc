@@ -1,0 +1,32 @@
+= VR Escape Room Cauldron
+// Metadata
+firstname lastname <mail@mail-server>
+1.0, 25.01.2020
+
+// Settings
+:source-highlighter: coderay
+:icons: font
+:sectnums:    // Nummerierung der Überschriften / section numbering
+// Refs:
+:imagesdir: images
+:sourcedir-code: src/main/java/at/htl/jdbcprimer
+:sourcedir-test: src/test/java/at/htl/jdbcprimer
+:toc:
+
+Version: {revnumber} +
+Version Date: {revdate} +
+Author: Felix Dumfarth
+
+++++
+<link rel="stylesheet"  href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+++++
+
+Vorversion von zukünftiger Spielfunktionalität +
+Der Spieler kann verschiedenfarbige Würfel in einen Kessel werfen, +
+je nach Farbe des Würfels nimmt der Trank eine andere Farbe an
+
+Achtung:
+Bibliotheken müssen in Unity nachgeladen werden +
+Man bekommt diese direkt im Unity Assets Store
+
+1. Oculus VR Integration: https://assetstore.unity.com/packages/tools/integration/oculus-integration-82022

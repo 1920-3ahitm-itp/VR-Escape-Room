@@ -1,9 +1,9 @@
 ﻿# Projektauftrag
-## Escape Room VR
+## VR Escape Room Projektauftrag
 ### 10.10.2019
-Syt 2019/20, Version 1.0  
-Projekt-Bezeichnung: Escape Room VR
-Projektauftraggeber: HTL Leonding
+Syt 2019/20, Version 1.0<br/>
+Projekt-Bezeichnung: Escape Room VR<br/>
+Projektauftraggeber: HTL Leonding<br/>
 
 #### Projekthintergrund:
 
@@ -24,9 +24,11 @@ Zuerst muss ein Plan erstellt werden, wie der Escape Room aussehen soll und ein 
 ##### Planung
 In der Planung muss die Hintergrundgeschichte geschrieben werden sowie Skizzen zum Escape Room angefertigt werden.
 Soll bis 11.11 gemacht werden
+
 #### Kennenlernen der Software
 Alle Teammitglieder sollten Unity und Blender grundlegend beherrschen können.
 Soll bis 2.12 gemacht werden
+
 #### Fertiger Escape Room
 Fertiger Escape Room
 Soll bis Juli  gemacht werden

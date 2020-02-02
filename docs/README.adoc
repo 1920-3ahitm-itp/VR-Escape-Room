@@ -1,0 +1,37 @@
+= VR Escape Room Documents
+// Metadata
+firstname lastname <mail@mail-server>
+1.0, 02.02.2020
+
+// Settings
+:source-highlighter: coderay
+:icons: font
+:sectnums:    // Nummerierung der Überschriften / section numbering
+// Refs:
+:imagesdir: images
+:sourcedir-code: src/main/java/at/htl/jdbcprimer
+:sourcedir-test: src/test/java/at/htl/jdbcprimer
+:toc:
+
+Version: {revnumber} +
+Version Date: {revdate} +
+Author: Sarah Feichtinger feichtinger.sarah5@gmail.com
+
+++++
+<link rel="stylesheet"  href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+++++
+
+== Contains
+* Notizen
+* Projektantrag
+* Projektauftrag
+* Projektstrukturplan
+* Pflichtenheft
+* Projekttagebuch
+
+=== Notizen
+Contains personal notes, ideas and wishes from the single team members
+and notes from the team meetings, which are held every friday
+
+=== Projekttagebuch
+Should be updated with every commit
