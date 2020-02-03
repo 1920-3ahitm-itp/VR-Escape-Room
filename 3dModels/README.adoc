@@ -21,7 +21,7 @@ Author: Sarah Feichtinger feichtinger.sarah5@gmail.com
 <link rel="stylesheet"  href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 ++++
 
-Contains downloaded free 3D Modells which maybe can be useful later.
+Contains downloaded free 3D Modells which maybe can be useful later and also some selfmade models.
 
 Free Modells can be found here: +
 https://free3d.com/3d-models/search.php?q=skeleton&maxPrice=0&page_language=de&type=0
