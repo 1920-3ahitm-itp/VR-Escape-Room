@@ -38,7 +38,7 @@ und einfach handhabbar ist, sowie geringe Ansprüche an Hardware und Räumlichke
 
 == Aufgabenstellung
 
-* Die für die Aufgabenstellung passenden Entwicklungumgebungen und Tools auswählen
+* Die für die Aufgabenstellung passenden Entwicklungsumgebungen und Tools auswählen
 * Das Projektteam muss sich in Software und Hardware Tools einarbeiten
 * Spielszenario konzipieren
 * Die virtuelle Einrichtung des Raumes aus fertigen (frei verfügbar aus dem Internet) und individuellen (selbst kreierten) Modulen erstellen
@@ -76,7 +76,7 @@ und einfach handhabbar ist, sowie geringe Ansprüche an Hardware und Räumlichke
 | Der Spieler muss alle Rätsel lösen und einen Trank brauen um an den Haustürschlüssel, welcher das Verlassen des Hauses ermöglicht, zu gelangen
 
 | Beteiligte Nutzer:
-| Interessierte Schüler am Tag der Offenen Tür
+| Interessierte Schüler am Tag der offenen Tür,
 Klassenkollegen,
 Evtl. Masters of Escape OG
 
@@ -114,12 +114,12 @@ Ziel ist es, eine kostengünstige Alternative zu den teuren und aufwendig zu bet
 
 Für das Spiel wird eine Oculus Vr Brille, die VR Escaperoom Software und ein Computer mit mindestens:
 
-*  NVIDIA GTX 960 oder AMD 290 Grafikkarte
-* 1 USB-3.0-Anschluss und 2 USB-2.0-Anschlüsse
+* NVIDIA GTX 960 oder AMD 290 Grafikkarte
+* 1 USB-3.0-Anschluss und 2 USB-2.0-Anschlüssen
 * 1 HDMI-1.3-Port
 * Intel i3-6100 oder AMD FX4350 Prozessor
 * 8 GByte RAM
-* Windows 7
+* einem Betriebssystem ab Windows 7 mit SP1
 
 benötigt.
 
