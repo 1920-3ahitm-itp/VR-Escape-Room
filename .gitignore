@@ -3,6 +3,7 @@
 /test_exerciseProgramms/beatSaber/Assets/Standard Assets/
 /test_exerciseProgramms/beatSaber/Library/
 /test_exerciseProgramms/beatSaber/obj/
+/docs/asciidoctor-docker-template/
 sysinfo.txt
 *.stackdump
 /Assets/AssetStoreTools*

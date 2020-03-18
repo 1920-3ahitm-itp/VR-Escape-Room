@@ -1,26 +1,14 @@
 = Pflichtenheft VR Escaperoom
 // Metadata
-firstname lastname <mail@mail-server>
-1.1, 05.02.2020
-
-// Settings
-:source-highlighter: coderay
+feichtinger sarah
+1.3, 2020-03-17
+:sourcedir: ../src/main/java
 :icons: font
-:sectnums:    // Nummerierung der Überschriften / section numbering
-// Refs:
-:imagesdir: images
-:sourcedir-code: src/main/java/at/htl/jdbcprimer
-:sourcedir-test: src/test/java/at/htl/jdbcprimer
-:toc:
-
-Version: {revnumber} +
-Version Date: {revdate} +
-Author: Sarah Feichtinger feichtinger.sarah5@gmail.com
+:toc: left
 
 ++++
 <link rel="stylesheet"  href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 ++++
-
 == Beschreibung der Ausgangssituation
 
 Escaperooms sind ein unterhaltsames und innovatives Unterhaltungskonzept. Die Teilnehmer sind in einem Themenraum eingeschlossen und müssen Rätsel lösen und Aufgaben meistern, um aus dem Raum zu entkommen.
@@ -124,3 +112,46 @@ Für das Spiel wird eine Oculus Vr Brille, die VR Escaperoom Software und ein Co
 benötigt.
 
 Die optimalen PC Anforderungen finden Sie unter: https://praxistipps.chip.de/oculus-rift-systemanforderungen-fuer-pc_41200
+
+== Organisatorische "Organisatorische Rahmenbedigungen"
+
+=== Gantt Diagramm
+
+[plantuml,gantt-protoype,png]
+----
+@startgantt
+project starts the 2020/03/18
+[Pflichtenheft] lasts 1 days
+[Rezepte Erfinden] lasts 9 days
+[Grundspielprinzip] lasts 3 days
+[Kessel Design] lasts 1 day
+[Spielprinzip mit Zutaten] lasts 34 days
+[Haus bauen] lasts 38 days
+[Rätsel einbauen] lasts 38 days
+[Zutaten Design] lasts 30 days
+[Inneneinrichtung] lasts 44 days
+[Verbesserungen/Deteils] lasts 5 days
+
+
+[Rezepte Erfinden] starts on 2020/03/19
+[Verbesserungen/Deteils] starts on 2020/06/01
+[Spielprinzip mit Zutaten] starts at [Grundspielprinzip]'s end
+[Zutaten Design] starts at [Kessel Design]'s end
+[Inneneinrichtung] starts at [Zutaten Design]'s end
+[Haus bauen] starts at [Spielprinzip mit Zutaten]'s end
+[Rätsel einbauen] starts at [Spielprinzip mit Zutaten]'s end
+
+[Pflichtenheft] is colored in Fuchsia/FireBrick
+[Rezepte Erfinden] is colored in Fuchsia/FireBrick
+[Grundspielprinzip] is colored in FireBrick/Coral
+[Spielprinzip mit Zutaten] is colored in Lavender/LightBlue
+[Haus bauen] is colored in Lavender/LightBlue
+[Rätsel einbauen] is colored in Lavender/LightBlue
+[Verbesserungen/Deteils] is colored in Lavender/LightBlue
+@endgantt
+----
+
+blau: Allgemein,
+pink: Sarah,
+rot: Felix,
+grün: Daniela,
