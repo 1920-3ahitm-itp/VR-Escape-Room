@@ -1,7 +1,7 @@
 = Pflichtenheft VR Escaperoom
 // Metadata
 firstname lastname <mail@mail-server>
-1.0, 25.01.2020
+1.1, 05.02.2020
 
 // Settings
 :source-highlighter: coderay
@@ -23,26 +23,26 @@ Author: Sarah Feichtinger feichtinger.sarah5@gmail.com
 
 == Beschreibung der Ausgangssituation
 
-Um eine billige Alternative zu den teuren, realen Escape Rooms zu schaffen, wird versucht ein virtueller Escaperoom zu erstellen.
-Zu Verfügung stehen dafür die Entwicklungsumgebung Unity, welche bereits verschiedene vorgefertigte virtuelle 3D Modelle anbietet, Blender und eine Oculus VR-Brille.
+Escaperooms sind ein unterhaltsames und innovatives Unterhaltungskonzept. Die Teilnehmer sind in einem Themenraum eingeschlossen und müssen Rätsel lösen und Aufgaben meistern, um aus dem Raum zu entkommen.
+Für die Umsetzung von Escaperooms benötigen die Betreiber passende Räumlichkeiten, Ausstattung und komplexe Technik.
 
 == Istzustand
 
-Mittlerweile hat sich das Team grobe Kenntnisse angeignet und es sind einige Testprogramme geschrieben worden, z.B. eine einfache Version von Beat Saber (ein Spiel bei dem man mit Lichtschwertern Würfel zerschlägt)
-und ein Programm, bei dem man Wüfel in verschiedenen Farben in ein einen Topf werfen kann, der Trank nimmt dann die Farbe des jeweiligen Würfels an. +
-Auch erste Einrichtungsgegenstände sind bereits erstellt worden. +
-Außerdem ist die Außenumgebung in Arbeit.
+Die HTL verfügt nicht über Räumlichkeiten und Einrichtung, um einen realen Escaperoom zu betreiben, möchte aber ein Adventure 
+Game beim Tag der offenen Tür und ähnlichen Veranstaltungen präsentieren können.
 
 == Problemstellung
 
-Dem Team fehlt die Erfahrung mit Blender und Unity, so das einfache Aufgaben trotzdem nur langsam voran gehen.
+Als Alternative zu den realen, aufwendig zu betreibenden Escaperooms soll eine VR Version kreiert werden, welche kostengünstig
+und einfach handhabbar ist, sowie geringe Ansprüche an Hardware und Räumlichkeiten stellt.
 
 == Aufgabenstellung
 
-Aufgabe ist es, einen virtuellen Escaperoom zu erstellen, welcher mit einer Oculus VR Brille verwendet werden kann.
-Über eine Animation kommt der Spieler in ein Hexenhaus, in welchem er verschiedene Rätsel (5 an der Zahl) lösen muss, um einen Verkleinerungstrank brauen zu können.
-Der Verkleinerungstrank macht es dem Spieler möglich, in einen anderen Raum zu gelangen, in dem der Schlüssel liegt.
-Das Spiel gilt als gewonnen, sobald der Spieler mit dem Schlüssel die Türe geöffnet hat und somit aus dem Hexenhaus entkommt.
+* Die für die Aufgabenstellung passenden Entwicklungsumgebungen und Tools auswählen
+* Das Projektteam muss sich in Software und Hardware Tools einarbeiten
+* Spielszenario konzipieren
+* Die virtuelle Einrichtung des Raumes aus fertigen (frei verfügbar aus dem Internet) und individuellen (selbst kreierten) Modulen erstellen
+* Spielszenario implementieren
 
 === Funktionale Anforderungen
 
@@ -67,16 +67,16 @@ Das Spiel gilt als gewonnen, sobald der Spieler mit dem Schlüssel die Türe ge�
 | Schulunterricht
 
 | Ziel des Use Cases:
-| Ziel ist es aus dem Raum zu entkommen.
+| Ziel ist es aus dem Raum zu entkommen
 
 | Umgebende Systemgrenze:
-| Ziel ist es nicht, eine bestimmte Punkteanzahl oder ähnliches zu erreichen, es geht nur darum den Raum innerhalb einer definierten Zeit zu verlassen
+| Zur Zielerreichung gibt es als Limit nur eine zeitliche Begrenzung, andere Kriterien wie etwa das Erreichen einer bestimmten Punktezahl sind nicht erforderlich
 
 | Vorbedingung:
-| Der Spieler muss alle Rätsel lösen und einen Trank brauen um an den Haustürschlüssel zu gelangen.
+| Der Spieler muss alle Rätsel lösen und einen Trank brauen um an den Haustürschlüssel, welcher das Verlassen des Hauses ermöglicht, zu gelangen
 
 | Beteiligte Nutzer:
-| Interessierte Schüler am Tag der Offenen Tür
+| Interessierte Schüler am Tag der offenen Tür,
 Klassenkollegen,
 Evtl. Masters of Escape OG
 
@@ -112,14 +112,14 @@ Ziel ist es, eine kostengünstige Alternative zu den teuren und aufwendig zu bet
 
 == Mengengerüst
 
-Für das Spiel wird eine Oculus Vr Brille und ein Computer mit mindestens:
+Für das Spiel wird eine Oculus Vr Brille, die VR Escaperoom Software und ein Computer mit mindestens:
 
-*  NVIDIA GTX 960 oder AMD 290 Grafikkarte
-* 1 USB-3.0-Anschluss und 2 USB-2.0-Anschlüsse
+* NVIDIA GTX 960 oder AMD 290 Grafikkarte
+* 1 USB-3.0-Anschluss und 2 USB-2.0-Anschlüssen
 * 1 HDMI-1.3-Port
 * Intel i3-6100 oder AMD FX4350 Prozessor
 * 8 GByte RAM
-* Windows 7
+* einem Betriebssystem ab Windows 7 mit SP1
 
 benötigt.
 
