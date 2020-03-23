@@ -1,4 +1,3 @@
-set -e
 # copy to gh-pages
 BUILD_DIR="docs"
 rm -rf -v $BUILD_DIR # else plantuml diagrams won't be rebuilt
