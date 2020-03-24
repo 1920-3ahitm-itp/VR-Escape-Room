@@ -29,6 +29,8 @@ A VR Escape Room made with Unity and Blender
 * Test and exercise programs
 * The Escape Room program and its folders
 
+Specification book: https://1920-3ahitm-itp.github.io/VR-Escape-Room/
+
 == Usage
 
 Open the folder *escapeRoom* in Unity to play the main game.
