@@ -9,6 +9,8 @@ feichtinger sarah
 
 == CLD
 
+[plantuml]
+----
 @startuml
 class KesselController {
     book: RecipeBook
@@ -26,6 +28,7 @@ class Ingredient {
 class Event {
     e: UnityEvent
 }
+----
 
 KesselController "1*" -right-> "1" RecipeBook
 RecipeBook "*1" -right- "*" Recipe
