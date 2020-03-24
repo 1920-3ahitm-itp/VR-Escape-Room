@@ -482,31 +482,10 @@ pre.rouge .hll * {
 <div class="sect1">
 <h2 id="_cld"><a class="anchor" href="#_cld"></a>1. CLD</h2>
 <div class="sectionbody">
-<div class="paragraph">
-<p>@startuml
-class KesselController {
-    book: RecipeBook
-}
-class RecipeBook {
-    recipes: List&lt;Recipe&gt;
-}
-class Recipe {
-    ingredients: List&lt;Ingredient&gt;
-    input: Event
-}
-class Ingredient {
-    o: UnityObject
-}
-class Event {
-    e: UnityEvent
-}</p>
+<div class="imageblock">
+<div class="content">
+<img src="images/diag-acdfdc3c709d07efeaed4bcc449f5d66.png" alt="diag acdfdc3c709d07efeaed4bcc449f5d66" width="666" height="212">
 </div>
-<div class="paragraph">
-<p>KesselController "1*" -right&#8594; "1" RecipeBook
-RecipeBook "<strong>1" -right- "</strong>" Recipe
-Recipe "<strong>1" -right- "</strong>" Ingredient
-Recipe "*1" -down- "1" Event
-@enduml</p>
 </div>
 </div>
 </div>
@@ -711,7 +690,7 @@ grün: Daniela,</p>
 <div id="footer">
 <div id="footer-text">
 Version 1.3<br>
-Last updated 2020-03-24 10:14:46 UTC
+Last updated 2020-03-24 10:28:58 UTC
 </div>
 </div>
 </body>
