@@ -28,13 +28,14 @@ class Ingredient {
 class Event {
     e: UnityEvent
 }
-----
+
 
 KesselController "1*" -right-> "1" RecipeBook
 RecipeBook "*1" -right- "*" Recipe
 Recipe "*1" -right- "*" Ingredient
 Recipe "*1" -down- "1" Event
 @enduml
+----
 
 == Beschreibung der Ausgangssituation
 
