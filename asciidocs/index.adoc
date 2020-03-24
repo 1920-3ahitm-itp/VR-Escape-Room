@@ -6,6 +6,32 @@ feichtinger sarah
 :icons: font
 :toc: left
 
+== CLD
+
+@startuml
+class KesselController {
+    book: RecipeBook
+}
+class RecipeBook {
+    recipes: List<Recipe>
+}
+class Recipe {
+    ingredients: List<Ingredient>
+    input: Event
+}
+class Ingredient {
+    o: UnityObject
+}
+class Event {
+    e: UnityEvent
+}
+
+KesselController "1*" -right-> "1" RecipeBook
+RecipeBook "*1" -right- "*" Recipe
+Recipe "*1" -right- "*" Ingredient
+Recipe "*1" -down- "1" Event
+@enduml
+
 == Beschreibung der Ausgangssituation
 
 Escaperooms sind ein unterhaltsames und innovatives Unterhaltungskonzept. Die Teilnehmer sind in einem Themenraum eingeschlossen und müssen Rätsel lösen und Aufgaben meistern, um aus dem Raum zu entkommen.
