@@ -6,7 +6,6 @@ feichtinger sarah
 :icons: font
 :toc: left
 
-
 == CLD
 
 [plantuml]
