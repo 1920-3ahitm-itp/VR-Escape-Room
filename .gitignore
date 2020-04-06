@@ -4,6 +4,7 @@
 /test_exerciseProgramms/beatSaber/Library/
 /test_exerciseProgramms/beatSaber/obj/
 /docs/asciidoctor-docker-template/
+.idea
 sysinfo.txt
 *.stackdump
 /Assets/AssetStoreTools*
