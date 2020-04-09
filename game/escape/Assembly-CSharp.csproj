@@ -63,7 +63,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\MyScenes\scripts\Controller.cs" />
+    <Compile Include="Assets\MyScenes\scripts\CauldronController.cs" />
     <Compile Include="Assets\MyScenes\scripts\Ingredient.cs" />
     <Compile Include="Assets\MyScenes\scripts\Recipe.cs" />
     <Compile Include="Assets\MyScenes\scripts\RecipeBook.cs" />

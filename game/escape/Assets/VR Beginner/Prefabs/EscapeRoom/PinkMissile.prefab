@@ -16,8 +16,8 @@ GameObject:
   - component: {fileID: 3693577642003258602}
   - component: {fileID: 6788677159783219751}
   m_Layer: 0
-  m_Name: PinkMissle
-  m_TagString: Untagged
+  m_Name: PinkMissile
+  m_TagString: Projectile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -231,7 +231,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d9d6971b3b411a498a9ecc3704d7a73, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CollisionDisabledTime: 0.2
 --- !u!135 &3693577642003258602
 SphereCollider:
   m_ObjectHideFlags: 0
