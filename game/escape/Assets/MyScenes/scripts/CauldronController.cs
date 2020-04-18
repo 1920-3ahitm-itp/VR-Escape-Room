@@ -4,19 +4,15 @@ using UnityEngine;
 
 public class CauldronController : MonoBehaviour
 {
-    List<GameObject> appendedIngredients = new List<GameObject>();
+    List<string> appendedIngredients = new List<string>();
+    List<string> expectedIngredients = new List<string> { "Tooth" };
 
     // Start is called before the first frame update
     void Start()
     {
-
+        
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-      
-    }
 
     private void OnCollisionEnter(Collision collision)
     {
@@ -27,20 +23,49 @@ public class CauldronController : MonoBehaviour
         {
             //other.GetComponent<EnemyController>().CallYourFunctionHere();
 
-            compareIngredients();
-            appendedIngredients.Clear();
+            if(compareIngredients())
+            {
+                // Spawn Key
+                Destroy(this.gameObject);
+            }
+            else
+            {
+                // reset 
+                // respawn all ingreds
+                appendedIngredients.Clear();
+            }
+
+
         }
         // alles andere wird als zutat gezählt und zur liste hinzugefügt
-        else
+        else if(expectedIngredients.Contains(other.gameObject.tag))
         {
-            appendedIngredients.Add(other);
-            //Destroy(this.gameObject);
-            Destroy(other);
+            appendedIngredients.Add(other.gameObject.tag);
+            //Destroy(other.gameObject);
         }
     }
 
-    private void compareIngredients()
+    private bool compareIngredients()
     {
-        //Destroy(this.gameObject);    
+        //Destroy(this.gameObject); 
+        bool containsAllIngredients = true;
+
+        if (appendedIngredients.Count == expectedIngredients.Count)
+        {
+            foreach (string ingredTag in appendedIngredients)
+            {
+                if(!expectedIngredients.Contains(ingredTag))
+                {
+                    containsAllIngredients = false;
+                }
+
+            }
+        }
+        else
+        {
+            containsAllIngredients = false;
+        }
+
+        return containsAllIngredients;
     }
 }

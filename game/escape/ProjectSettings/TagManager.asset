@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Ignite
   - Projectile
+  - Tooth
   layers:
   - Default
   - TransparentFX
