@@ -11,6 +11,7 @@ ScriptsOnlyBuild:
     - CauldronContent
     - CauldronController
     - CauldronEffects
+    - CauldronIngredient
     - ContactSoundPlayer
     - DisableInteractable
     - FireDestruction
@@ -304,53 +305,53 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 14788}
     - Class: 114
-      Script: {instanceID: 15088}
+      Script: {instanceID: 15086}
     - Class: 114
-      Script: {instanceID: 15106}
+      Script: {instanceID: 15104}
     - Class: 114
-      Script: {instanceID: 15170}
+      Script: {instanceID: 15168}
     - Class: 114
-      Script: {instanceID: 15254}
+      Script: {instanceID: 15252}
+    - Class: 114
+      Script: {instanceID: 15444}
     - Class: 114
       Script: {instanceID: 15446}
     - Class: 114
-      Script: {instanceID: 15448}
+      Script: {instanceID: 15494}
     - Class: 114
-      Script: {instanceID: 15496}
+      Script: {instanceID: 15500}
     - Class: 114
-      Script: {instanceID: 15502}
+      Script: {instanceID: 15726}
     - Class: 114
-      Script: {instanceID: 15728}
+      Script: {instanceID: 15798}
     - Class: 114
-      Script: {instanceID: 15800}
+      Script: {instanceID: 15884}
     - Class: 114
       Script: {instanceID: 15886}
     - Class: 114
-      Script: {instanceID: 15888}
+      Script: {instanceID: 15956}
     - Class: 114
-      Script: {instanceID: 15958}
+      Script: {instanceID: 15968}
     - Class: 114
-      Script: {instanceID: 15970}
+      Script: {instanceID: 16040}
     - Class: 114
-      Script: {instanceID: 16042}
+      Script: {instanceID: 16074}
     - Class: 114
       Script: {instanceID: 16076}
     - Class: 114
-      Script: {instanceID: 16078}
+      Script: {instanceID: 16088}
     - Class: 114
-      Script: {instanceID: 16090}
+      Script: {instanceID: 16140}
     - Class: 114
-      Script: {instanceID: 16142}
+      Script: {instanceID: 16144}
     - Class: 114
       Script: {instanceID: 16146}
     - Class: 114
-      Script: {instanceID: 16148}
+      Script: {instanceID: 16192}
     - Class: 114
-      Script: {instanceID: 16194}
+      Script: {instanceID: 16294}
     - Class: 114
-      Script: {instanceID: 16296}
-    - Class: 114
-      Script: {instanceID: 16302}
+      Script: {instanceID: 16300}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -1913,4 +1914,4 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/MyScenes/MyScene.unity
-  playerPath: C:/Users/Sarah/Documents/escape/escaperoom.apk
+  playerPath: C:/Users/Felix/Documents/VR-Escape-Room/game/escape/escapeRoom.apk
