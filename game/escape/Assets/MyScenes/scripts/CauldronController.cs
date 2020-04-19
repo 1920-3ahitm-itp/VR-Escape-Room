@@ -41,6 +41,7 @@ public class CauldronController : MonoBehaviour
         else if(expectedIngredients.Contains(other.gameObject.tag))
         {
             appendedIngredients.Add(other.gameObject.tag);
+            other.gameObject.SetActive(false);
             //Destroy(other.gameObject);
         }
     }
