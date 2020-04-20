@@ -155,9 +155,9 @@ Die optimalen PC Anforderungen finden Sie unter: https://praxistipps.chip.de/ocu
 project starts the 2020/03/27
 [Rezepte Erfinden] lasts 3 days
 [Grundspielprinzip] lasts 3 days
-[Spielprinzip mit Zutaten] lasts 25 days
-[Haus bauen] lasts 38 days
-[Rätsel einbauen] lasts 38 days
+[Standart Spiel funktionen] lasts 25 days
+[Umgebung gestalten] lasts 38 days
+[Regeln implementieren] lasts 38 days
 [Zutaten Design] lasts 22 days
 [Inneneinrichtung] lasts 44 days
 [Verbesserungen/Deteils] lasts 5 days
@@ -165,16 +165,16 @@ project starts the 2020/03/27
 
 [Rezepte Erfinden] starts on 2020/03/19
 [Verbesserungen/Deteils] starts on 2020/06/01
-[Spielprinzip mit Zutaten] starts at [Grundspielprinzip]'s end
+[Standart Spiel funktionen] starts at [Grundspielprinzip]'s end
 [Inneneinrichtung] starts at [Zutaten Design]'s end
-[Haus bauen] starts at [Spielprinzip mit Zutaten]'s end
-[Rätsel einbauen] starts at [Spielprinzip mit Zutaten]'s end
+[Umgebung gestalten] starts at [Standart Spiel funktionen]'s end
+[Regeln implementieren] starts at [Standart Spiel funktionen]'s end
 
 [Rezepte Erfinden] is colored in Fuchsia/FireBrick
 [Grundspielprinzip] is colored in FireBrick/Coral
-[Spielprinzip mit Zutaten] is colored in Lavender/LightBlue
-[Haus bauen] is colored in Lavender/LightBlue
-[Rätsel einbauen] is colored in Lavender/LightBlue
+[Standart Spiel funktionen] is colored in Lavender/LightBlue
+[Umgebung gestalten] is colored in Lavender/LightBlue
+[Regeln implementieren] is colored in Lavender/LightBlue
 [Verbesserungen/Deteils] is colored in Lavender/LightBlue
 @endgantt
 ----
