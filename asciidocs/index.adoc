@@ -68,7 +68,12 @@ und einfach handhabbar ist, sowie geringe Ansprüche an Hardware und Räumlichke
     left to right direction
     actor Player
     rectangle {
-     Player -- (Entkommen aus \ndem Raum)
+     Player -- (Entkommen aus dem Raum)
+    (Bewegen im Raum) .>(Entkommen aus dem Raum) :<<extend>>
+    (Hantieren mit Gegenständen) .>(Entkommen aus dem Raum) :<<extend>>
+    (Regeln implementieren) .>(Entkommen aus dem Raum) :<<extend>>
+    (Umgebung gestalten) .>(Entkommen aus dem Raum) :<<extend>>
+
     }
 ----
 
