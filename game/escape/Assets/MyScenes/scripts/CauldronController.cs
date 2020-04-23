@@ -10,7 +10,7 @@ public class CauldronController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
 
@@ -26,12 +26,14 @@ public class CauldronController : MonoBehaviour
             if(compareIngredients())
             {
                 // Spawn Key
-                Destroy(this.gameObject);
+                //Destroy(this.gameObject);
+                keyAppear();
             }
             else
             {
                 // reset 
                 // respawn all ingreds
+                // make potion dark and an explosion
                 appendedIngredients.Clear();
             }
 
@@ -68,5 +70,12 @@ public class CauldronController : MonoBehaviour
         }
 
         return containsAllIngredients;
+    }
+
+    private void keyAppear()
+    {
+        GameObject key = GameObject.Find("Key");
+        key.transform.position = new Vector3(transform.position.x, 1.4f, transform.position.z);
+
     }
 }
