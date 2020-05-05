@@ -1,11 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class CauldronController : MonoBehaviour
 {
     List<string> appendedIngredients = new List<string>();
-    List<string> expectedIngredients = new List<string> { "Tooth" };
+    List<string> expectedIngredients = new List<string> { "Tooth", "Eye", "Flower" };
 
     // Start is called before the first frame update
     void Start()
@@ -34,7 +35,7 @@ public class CauldronController : MonoBehaviour
                 // reset 
                 // respawn all ingreds
                 // make potion dark and an explosion
-                appendedIngredients.Clear();
+                //appendedIngredients.Clear();
             }
 
 
@@ -53,23 +54,28 @@ public class CauldronController : MonoBehaviour
         //Destroy(this.gameObject); 
         bool containsAllIngredients = true;
 
-        if (appendedIngredients.Count == expectedIngredients.Count)
+        if (appendedIngredients.Count != expectedIngredients.Count)
         {
-            foreach (string ingredTag in appendedIngredients)
+            containsAllIngredients = false;
+        }
+        else
+        {
+            foreach (string ingredTag in expectedIngredients)
             {
-                if(!expectedIngredients.Contains(ingredTag))
+                if (appendedIngredients.Contains(ingredTag) == false)
                 {
+                    Destroy(this.gameObject);
                     containsAllIngredients = false;
                 }
 
             }
-        }
-        else
-        {
-            containsAllIngredients = false;
-        }
 
+        }
+        
         return containsAllIngredients;
+        
+
+        //return appendedIngredients.SequenceEqual(expectedIngredients);
     }
 
     private void keyAppear()

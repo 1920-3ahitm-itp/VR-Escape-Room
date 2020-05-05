@@ -66,7 +66,6 @@
     <Compile Include="Assets\MyScenes\scripts\CauldronController.cs" />
     <Compile Include="Assets\MyScenes\scripts\Ingredient.cs" />
     <Compile Include="Assets\MyScenes\scripts\Recipe.cs" />
-    <Compile Include="Assets\MyScenes\scripts\RecipeBook.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\VR Beginner\Scripts\Effects\CauldronEffects.cs" />
     <Compile Include="Assets\VR Beginner\Scripts\Effects\ContactSoundPlayer.cs" />
