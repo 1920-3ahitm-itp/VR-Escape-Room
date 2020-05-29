@@ -9,7 +9,7 @@ using Random = UnityEngine.Random;
 public class Potion : MonoBehaviour
 {
     static int NextFreeUniqueId = 3000;
-    
+    public bool isBreakable;
     public string PotionType = "Default";
     public GameObject plugObj;
     public ParticleSystem particleSystemLiquid;
@@ -34,8 +34,10 @@ public class Potion : MonoBehaviour
     int m_UniqueId;
 
     AudioSource m_AudioSource;
-    bool m_Breakable;
+    bool m_Breakable = true;
     float m_StartingFillAmount;
+
+    public bool glassIsWeak = true;
 
     void OnEnable()
     {
@@ -147,8 +149,9 @@ public class Potion : MonoBehaviour
     }
 
     private void OnCollisionEnter(Collision collision)
-    {
-        if (m_Breakable && m_RbPotion.velocity.magnitude > 1.35)
+    { 
+    
+        if (glassIsWeak && m_Breakable && m_RbPotion.velocity.magnitude > 1.35)
         {
 
             if (m_PlugIn)

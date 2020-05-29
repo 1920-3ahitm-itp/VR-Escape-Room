@@ -9,6 +9,11 @@ TagManager:
   - Tooth
   - Eye
   - Flower
+  - glassPoison
+  - Sharingan
+  - Spanferkel
+  - Watercrystal
+  - Firecrystal
   layers:
   - Default
   - TransparentFX

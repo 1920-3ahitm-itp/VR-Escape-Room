@@ -6,7 +6,7 @@ using UnityEngine;
 public class CauldronController : MonoBehaviour
 {
     List<string> appendedIngredients = new List<string>();
-    List<string> expectedIngredients = new List<string> { "Tooth", "Eye", "Flower" };
+    List<string> expectedIngredients = new List<string> { "Tooth", "Eye", "Flower", "Sharingan", "Spanferkel", "Watercrystal", "Firecrystal" };
 
     // Start is called before the first frame update
     void Start()
@@ -28,7 +28,7 @@ public class CauldronController : MonoBehaviour
             {
                 // Spawn Key
                 //Destroy(this.gameObject);
-                keyAppear();
+                brewAppear();
             }
             else
             {
@@ -78,9 +78,9 @@ public class CauldronController : MonoBehaviour
         //return appendedIngredients.SequenceEqual(expectedIngredients);
     }
 
-    private void keyAppear()
+    private void brewAppear()
     {
-        GameObject key = GameObject.Find("Key");
+        GameObject key = GameObject.Find("weakGlassBrew");
         key.transform.position = new Vector3(transform.position.x, 1.4f, transform.position.z);
 
     }
