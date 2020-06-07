@@ -1,5 +1,7 @@
 fileFormatVersion: 2
 guid: c580343819db5c34db1683ffed6af825
+labels:
+- Sky
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -32,7 +34,7 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: -1
-    aniso: -1
+    aniso: 0
     mipBias: -100
     wrapU: -1
     wrapV: -1
