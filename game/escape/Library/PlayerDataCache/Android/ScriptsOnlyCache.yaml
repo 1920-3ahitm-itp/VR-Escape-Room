@@ -69,7 +69,6 @@ ScriptsOnlyBuild:
     - UnityEngine.Rendering.Universal.UniversalAdditionalCameraData
     - UnityEngine.Rendering.Universal.UniversalAdditionalLightData
     - UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset
-    - UnityEngine.Rendering.Universal.UniversalRenderPipelineEditorResources
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.VisualEffectGraph.Runtime.dll:
